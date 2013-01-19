@@ -1,0 +1,16 @@
+UNIX
+
+Running the prefixer
+Change your current directory to the directory containing the prefixer output file.
+The command "./prefixer" will run the output file.
+The file infixExpression.txt was included, but any file containing an expression can be used, as per the requirements.
+As per the requirements, using the "-r" flag will output a simplified version of the expression in the input file.
+
+Note
+If you don't want to type "./" before the prefixer command to run the prefixer, you can copy the output to your bin folder so that you can just execute the command "prefixer".
+Use the following command:
+sudo cp ~/prefixer /usr/bin
+You will most likely be prompted for a password, so hopefully you have the correct privileges to perform this action.
+
+Note for simplification of integers
+If division of the number results in a number less than 1 (0 in integer division), it is not simplified.
